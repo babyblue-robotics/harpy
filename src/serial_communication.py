@@ -11,7 +11,7 @@ serial_communication.py provide serial communication .
 
 import serial
 
-class SerialComm(object):
+class SerialComm:
     def __init__(self):
         port = "COM5"
         baud = 9600
@@ -73,7 +73,8 @@ class SerialComm(object):
         ser.close()
         exit()
 
-#ser = serial_open()
-#serial_read(ser)
-sc = SerialComm()
-sc.handel_feedback("<123,xyz>")
+if if __name__ == "__main__":
+    #ser = serial_open()
+    #serial_read(ser)
+    sc = SerialComm()
+    sc.handel_feedback("<123,xyz>")
