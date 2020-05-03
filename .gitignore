@@ -1,0 +1,7 @@
+*.egg-info
+__pycache__/
+
+# TODO: remove once pmsshah cleans
+run.bat
+test_calc.py
+calc.py
